@@ -1,0 +1,31 @@
+{
+  "extensionName": {
+    "message": "jsproxy-firefox-extension",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "A firefox extension for jsproxy.",
+    "description": "Description of the add-on."
+  },
+
+  "menuItemOpenWithProxy": {
+    "message": "Open with jsproxy",
+    "description": "Title of the context menu item that allows you to open a url with jsproxy."
+  },
+
+  "menuItemSearchWithProxy": {
+    "message": "Search with Google",
+    "description": "Title of the context menu item that allows you to search a keyword with Google."
+  },
+
+  "menuItemOpenImageWithProxy": {
+    "message": "Open image with jsproxy",
+    "description": "Title of the context menu item that allows you to open an image with jsproxy."
+  },
+
+  "pageAction": {
+    "message": "Reopen with/without jsproxy",
+    "description": "Title of the page action button that allows you to reopen current page with or without jsproxy."
+  }
+}
