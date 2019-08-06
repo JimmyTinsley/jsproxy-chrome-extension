@@ -39,22 +39,20 @@ Click handler, where we perform the appropriate action given the
 ID of the menu item that was clicked.
 */
 function contextMenuClickHandler(info, jsproxy_prefix) {
+  var postfix;
   switch (info.menuItemId) {
     case "open-with-proxy":
-      chrome.tabs.create({
-        url: jsproxy_prefix + "-----" + info.linkUrl
-      }, function(tab){ onTabCreated(tab);});
+      postfix = info.linkUrl;
       break;
     case "search-with-proxy":
-      chrome.tabs.create({
-        url: jsproxy_prefix + "-----" + info.selectionText
-      }, function(tab){ onTabCreated(tab);});
+      postfix = info.selectionText
       break;
     case "open-image-with-proxy":
-      chrome.tabs.create({
-        url: jsproxy_prefix + "-----" + info.srcUrl
-      }, function(tab){ onTabCreated(tab);});
+      postfix = info.srcUrl
   }
+  chrome.tabs.create({
+     url: jsproxy_prefix + "-----" + postfix
+  }, function(tab){ onTabCreated(tab);});
 }
 
 
