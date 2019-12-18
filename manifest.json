@@ -5,7 +5,7 @@
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
   "version": "1.0.0",
-  "homepage_url": "https://github.com/JimmyTinsley/jsproxy-firefox-extension",
+  "homepage_url": "https://github.com/JimmyTinsley/jsproxy-chrome-extension",
   "default_locale": "en",
 
   "background": {

@@ -1,11 +1,11 @@
 {
   "extensionName": {
-    "message": "jsproxy-firefox-extension",
+    "message": "jsproxy-chrome-extension",
     "description": "Name of the extension."
   },
 
   "extensionDescription": {
-    "message": "A firefox extension for jsproxy.",
+    "message": "A chrome extension for jsproxy.",
     "description": "Description of the add-on."
   },
 

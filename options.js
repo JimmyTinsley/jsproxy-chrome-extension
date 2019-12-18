@@ -13,7 +13,7 @@ function restoreOptions() {
     if (item.jsproxy_sandbox_url !== "") {
       document.querySelector("#jsproxy_sandbox_url").value = item.jsproxy_sandbox_url;
     } else {
-      document.querySelector("#jsproxy_sandbox_url").value = "https://jsproxy-demo.tk/";
+      document.querySelector("#jsproxy_sandbox_url").value = "https://jsproxy.jimmytinsley.workers.dev/";
       chrome.storage.sync.set({
         jsproxy_sandbox_url: document.querySelector("#jsproxy_sandbox_url").value
       });
