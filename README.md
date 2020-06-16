@@ -6,7 +6,7 @@ Firefox version can be found [here](https://github.com/JimmyTinsley/jsproxy-fire
 ## Before use the extension.
 
 - Make sure you are clear about how to use jsproxy.
-- Click the button on toolbar and set your own jsproxy sandbox url, which was set to `https://jsproxy.jimmytinsley.workers.dev/` by default.
+- Click the button on toolbar and set your own jsproxy sandbox url, which was set to `https://jsproxy1.jimmytinsley.workers.dev/` by default.
 - Open jsproxy page sandbox at least once to initialize service worker
 ## Use
 - Right click on a link, then click on context menu option `Open with jsproxy` to open the link with jsproxy in a new broswer tab.
